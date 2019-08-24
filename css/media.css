@@ -1,0 +1,86 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/*header start*/
+.menu ul li a {
+    text-align: right;
+    padding: 5px 0px !important;
+}
+
+    /*slider start*/
+.slider {
+    padding-bottom: 50px;
+}
+    
+.cid {
+    bottom: -45px;
+}
+
+.cid li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+} 
+.inspire {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.inspire h1 {
+    /*font-weight: 700;*/
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.inspire h2 {
+    margin-bottom: 15px;
+}
+.inspire p {
+    margin-bottom: 15px;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+/*header start*/
+.menu ul li a {
+    text-align: right;
+    padding: 5px 0px !important;
+
+} 
+
+/*slider start*/
+.slider {
+    padding-bottom: 80px;
+}
+
+.cid {
+    bottom: -75px;
+}
+.inspire {
+    margin-top: 15px;
+    text-align: center;
+}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+/*header start*/
+.menu ul li a {
+    text-align: right;
+    padding: 5px 0px !important;
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.menu ul li a{
+	padding: 0 35px !important;
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.menu ul li a{
+	padding: 0 35px !important;}    
